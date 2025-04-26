@@ -1,0 +1,13 @@
+This application could help users track their medications, set reminders for
+dosage times, and update their medication routine as prescribed by a doctor.
+It uses methods such as:
+
+set_reminder(self, new_time_of_day) method:
+Takes new_time_of_day as an argument from outside.
+
+Updates self.time_of_day and marks self.reminder_set = True.
+update_dosage(self, new_dosage) method:
+Updates the dosage if needed.
+
+info(self) method:
+Displays all current information.
